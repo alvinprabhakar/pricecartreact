@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Container ,Button} from 'react-bootstrap';
+import { Card , Button} from 'react-bootstrap';
 import './App.css'
 
 
@@ -20,13 +20,13 @@ function App(){
               <li className="tick-list">5GB Storage</li>
               <li className="tick-list">Unlimited Public Projects</li>
               <li className="tick-list">Community Access</li>
-              <li class="text-muted wrong-list">Unlimited Private Projects</li>
-              <li class="text-muted wrong-list">Dedicated Phone Support</li>
-              <li class="text-muted wrong-list">Free Subdomain</li>
-              <li class="text-muted wrong-list">Monthly Status Reports</li>
+              <li className="text-muted wrong-list">Unlimited Private Projects</li>
+              <li className="text-muted wrong-list">Dedicated Phone Support</li>
+              <li className="text-muted wrong-list">Free Subdomain</li>
+              <li className="text-muted wrong-list">Monthly Status Reports</li>
           </ul>
-          <div class="d-grid">
-              <a href="#" class="btn btn-primary text-uppercase">Button</a>
+          <div className="d-grid">
+              <Button className="btn btn-primary text-uppercase">Button</Button>
           </div>
       </Card>
         
@@ -41,13 +41,13 @@ function App(){
               <li className="tick-list">50GB Storage</li>
               <li className="tick-list">Unlimited Public Projects</li>
               <li className="tick-list">Community Access</li>
-              <li class="tick-list">Unlimited Private Projects</li>
-              <li class="tick-list">Dedicated Phone Support</li>
-              <li class="tick-list">Free Subdomain</li>
-              <li class="text-muted wrong-list">Monthly Status Reports</li>
+              <li className="tick-list">Unlimited Private Projects</li>
+              <li className="tick-list">Dedicated Phone Support</li>
+              <li className="tick-list">Free Subdomain</li>
+              <li className="text-muted wrong-list">Monthly Status Reports</li>
           </ul>
-          <div class="d-grid">
-              <a href="#" class="btn btn-primary text-uppercase">Button</a>
+          <div className="d-grid">
+          <Button className="btn btn-primary text-uppercase">Button</Button>
           </div>
         
       </Card>
@@ -62,13 +62,13 @@ function App(){
               <li className="tick-list">150GB Storage</li>
               <li className="tick-list">Unlimited Public Projects</li>
               <li className="tick-list">Community Access</li>
-              <li class="tick-list">Unlimited Private Projects</li>
-              <li class="tick-list">Dedicated Phone Support</li>
-              <li class="tick-list"><b>Unlimited </b>Free Subdomain</li>
-              <li class="tick-list">Monthly Status Reports</li>
+              <li className="tick-list">Unlimited Private Projects</li>
+              <li className="tick-list">Dedicated Phone Support</li>
+              <li className="tick-list"><b>Unlimited </b>Free Subdomain</li>
+              <li className="tick-list">Monthly Status Reports</li>
           </ul>
-          <div class="d-grid">
-              <a href="#" class="btn btn-primary text-uppercase">Button</a>
+          <div className="d-grid">
+          <Button className="btn btn-primary text-uppercase">Button</Button>
           </div>
         
       </Card>
